@@ -2,9 +2,12 @@ function main() {
   // Write your code here. Read input using 'readLine()' and print output using 'console.log()'.
 
   const r =readLine();    
-  let area = (Math.PI * (r * r)); 
-  let perimetar = (2 * Math.PI * r);
+  const PI = Math.PI;
+  
   // Print the area of the circle:
- console.log(area);
+  const area = (PI * (r * r)); 
+   console.log(area);
   // Print the perimeter of the circle:
+  const perimetar = (2 * PI * r);
   console.log(perimetar);
+}

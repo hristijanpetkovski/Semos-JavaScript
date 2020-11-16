@@ -5,12 +5,10 @@
 *	Parameter:
 *   parameterVariable - A string of text.
 **/
-const parameterVariable = 'Welcome to 10 Days of JavaScript!'
-
 function greeting(parameterVariable) {
     // This line prints 'Hello, World!' to the console:
     console.log('Hello, World!');
-    console.log(parameterVariable)
-    // Write a line of code that prints parameterVariable to stdout using console.log:
     
+    // Write a line of code that prints parameterVariable to stdout using console.log:
+    console.log(parameterVariable)
 }
