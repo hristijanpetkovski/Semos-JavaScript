@@ -20,7 +20,7 @@ function performOperation(secondInteger, secondDecimal, secondString) {
     const convertedSecondDecimal = Number(secondDecimal);
     // Declare a variable named 'firstString' and initialize with the string "HackerRank".
     const firstString = 'HackerRank ';
-    const convertedSecondString = (secondString);
+    const SecondString = (secondString);
     // Write code that uses console.log to print the sum of the 'firstInteger' and 'secondInteger' (converted to a Number        type) on a new line.
     console.log(firstInteger + convertedSecondInteger);
     
@@ -28,5 +28,5 @@ function performOperation(secondInteger, secondDecimal, secondString) {
     console.log(firstDecimal + convertedSecondDecimal);
     
     // Write code that uses console.log to print the concatenation of 'firstString' and 'secondString' on a new line. The        variable 'firstString' must be printed first.
-    console.log(firstString + convertedSecondString);
+    console.log(firstString + SecondString);
 }
