@@ -19,12 +19,6 @@ fetchPromise.then(response => {
 });
 
 
-  // console.log(names);
-  // const namesLength = names.filter(name => name.length > 5 && name.length < 10 )
-  // console.log(namesLength);
-
-
-
 // MAPPING
 
 const number = [1, 2, 3, 4, 5];
