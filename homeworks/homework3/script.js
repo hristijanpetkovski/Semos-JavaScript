@@ -1,4 +1,6 @@
-let string1 = 'javascript'
+// Resenieto od Ivana (moe podobro resenie ne najdov);
+
+let string1 = 'j97va11599ri112116'
 
 const  charAndAscii = function (charAndAsciiCombination) {
   const char = /[a-z]/;
@@ -14,7 +16,7 @@ const  charAndAscii = function (charAndAsciiCombination) {
         Number(charAndAsciiCombination.substr(i, asciiToChar))
       );
       array.push(addToArray);
-      i +- asciiToChar - 1; 
+      i += asciiToChar - 1; 
     }
   } 
   return array.join('');
